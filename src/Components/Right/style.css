@@ -1,0 +1,32 @@
+textarea {
+  padding: 4px 8px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 8px;
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+textarea::placeholder {
+  text-align: left;
+  transform: translateY(500%);
+  font-size: 16px;
+  padding-left: 16px;
+  color: rgb(148, 145, 145);
+  font-weight: 600;
+}
+
+button {
+  line-height: 24px;
+  padding: 3px 24px;
+  background: rgb(78, 78, 209);
+  color: white;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
